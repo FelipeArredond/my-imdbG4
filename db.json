@@ -1,58 +1,92 @@
 {
-  "menuItems": [
-    {
-      "icon": "film",
-      "title": "Movies",
-      "subItems": [
-        {
-          "path": "/",
-          "text": "item 1"
+    "menuItems": [{
+            "icon": "film",
+            "title": "Movies",
+            "subItems": [{
+                    "path": "/",
+                    "text": "item 1"
+                },
+                {
+                    "path": "/",
+                    "text": "item 2"
+                },
+                {
+                    "path": "/",
+                    "text": "item 3"
+                }
+            ]
         },
         {
-          "path": "/",
-          "text": "item 2"
+            "icon": "tv",
+            "title": "TV Shows",
+            "subItems": [{
+                    "path": "/",
+                    "text": "item 4"
+                },
+                {
+                    "path": "/",
+                    "text": "item 5"
+                },
+                {
+                    "path": "/",
+                    "text": "item 6"
+                }
+            ]
         },
         {
-          "path": "/",
-          "text": "item 3"
+            "icon": "user-group",
+            "title": "Celebs",
+            "subItems": [{
+                    "path": "/",
+                    "text": "item 7"
+                },
+                {
+                    "path": "/",
+                    "text": "item 8"
+                },
+                {
+                    "path": "/",
+                    "text": "item 9"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "icon": "tv",
-      "title": "TV Shows",
-      "subItems": [
-        {
-          "path": "/",
-          "text": "item 4"
+    ],
+
+    "movies": [{
+            "link": "https://pics.filmaffinity.com/la_vendedora_de_rosas-407417805-large.jpg",
+            "name": "La vendedora de rosas"
         },
         {
-          "path": "/",
-          "text": "item 5"
+            "link": "https://pics.filmaffinity.com/el_abrazo_de_la_serpiente-385873306-large.jpg",
+            "name": "El abrazo de la serpiente"
         },
         {
-          "path": "/",
-          "text": "item 6"
+            "link": "https://rtvcplay-v2.s3-accelerate.amazonaws.com/s3fs-public/field/image/video/Confesion-Laura-Trailer.jpg",
+            "name": "Confesión a Laura"
+        },
+        {
+            "link": "https://www.proimagenescolombia.com/photos/57150_888_imagen__.jpg",
+            "name": "María, llena eres de gracia"
+        },
+        {
+            "link": "https://www.proimagenescolombia.com/photos/57150_3331_imagen__.jpg",
+            "name": "La tierra y la sombra"
+        },
+        {
+            "link": "https://rtvcplay-v2.s3-accelerate.amazonaws.com/s3fs-public/styles/originales/public/field/image/video/Cap-Rodrigo-D_0.jpg",
+            "name": "Rodrigo D no futuro"
+        },
+        {
+            "link": "https://www.proimagenescolombia.com/photos/57150_5968_imagen__.jpg",
+            "name": "Agarrando pueblo"
+        },
+        {
+            "link": "https://elpilon.com.co/wp-content/uploads/2022/01/El-viaje-1-CORTESIA.jpg",
+            "name": "Los viajes del viento"
+        },
+        {
+            "link": "https://www.proimagenescolombia.com/photos/57150_342_imagen__.jpg",
+            "name": "Mi abuelo, mi papá y yo"
         }
-      ]
-    },
-    {
-      "icon": "user-group",
-      "title": "Celebs",
-      "subItems": [
-        {
-          "path": "/",
-          "text": "item 7"
-        },
-        {
-          "path": "/",
-          "text": "item 8"
-        },
-        {
-          "path": "/",
-          "text": "item 9"
-        }
-      ]
-    }
-  ]
+    ]
 }

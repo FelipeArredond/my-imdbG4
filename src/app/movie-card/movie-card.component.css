@@ -1,12 +1,18 @@
 .card {
     height: 300px;
     width: 200px;
-    background-color: grey;
+    background-color: black;
     margin-bottom: 10px;
+    border: solid 1px white;
 }
 
 .card .image {
     height: 60%;
     width: 100%;
     background-color: black;
+}
+
+.movieName {
+    font-size: 20px;
+    color: white;
 }

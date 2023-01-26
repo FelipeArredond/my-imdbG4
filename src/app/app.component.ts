@@ -11,54 +11,74 @@ export class AppComponent {
   items = [
     {
       index: 0,
-      name: 'Transformers 0'
-    },{
+      link: 'https://pics.filmaffinity.com/la_vendedora_de_rosas-407417805-large.jpg',
+      name: 'La vendedora de rosas'
+    },
+    {
       index: 1,
-      name: 'Transformers 1'
-    },{
+      link: 'https://pics.filmaffinity.com/el_abrazo_de_la_serpiente-385873306-large.jpg',
+      name: 'El abrazo de la serpiente'
+    },
+    {
       index: 2,
-      name: 'Transformers 2'
-    },{
+      link: 'https://rtvcplay-v2.s3-accelerate.amazonaws.com/s3fs-public/field/image/video/Confesion-Laura-Trailer.jpg',
+      name: 'Confesión a Laura'
+    },
+    {
       index: 3,
-      name: 'Transformers 3'
-    },{
+      link: 'https://www.proimagenescolombia.com/photos/57150_888_imagen__.jpg',
+      name: 'María, llena eres de gracia'
+    },
+    {
       index: 4,
-      name: 'Transformers 4'
-    },{
+      link: 'https://www.proimagenescolombia.com/photos/57150_3331_imagen__.jpg',
+      name: 'La tierra y la sombra'
+    },
+    {
       index: 5,
-      name: 'Transformers 5'
-    },{
+      link: 'https://rtvcplay-v2.s3-accelerate.amazonaws.com/s3fs-public/styles/originales/public/field/image/video/Cap-Rodrigo-D_0.jpg',
+      name: 'Rodrigo D no futuro'
+    },
+    {
       index: 6,
-      name: 'Transformers 6'
-    },{
+      link: 'https://www.proimagenescolombia.com/photos/57150_5968_imagen__.jpg',
+      name: 'Agarrando pueblo'
+    },
+    {
       index: 7,
-      name: 'Transformers 7'
+      link: 'https://elpilon.com.co/wp-content/uploads/2022/01/El-viaje-1-CORTESIA.jpg',
+      name: 'Los viajes del viento'
     },
     {
       index: 8,
-      name: 'Transformers 8'
-    },
-    {
-      index: 9,
-      name: 'Transformers 9'
+      link: 'https://www.proimagenescolombia.com/photos/57150_342_imagen__.jpg',
+      name: 'Mi abuelo, mi papá y yo'
     }
-  ];
+  ]
+
 
   carousel = [
-  {
-    index: 0,
-    name: 'Transformers 0'
-  },{
-    index: 1,
-    name: 'Transformers 1'
-  },{
-    index: 2,
-    name: 'Transformers 2'
-  },{
-    index: 3,
-    name: 'Transformers 3'
-  }
-]
+    {
+      index: 0,
+      link: 'https://pics.filmaffinity.com/la_vendedora_de_rosas-407417805-large.jpg',
+      name: 'La vendedora de rosas'
+    },
+    {
+      index: 1,
+      link: 'https://pics.filmaffinity.com/el_abrazo_de_la_serpiente-385873306-large.jpg',
+      name: 'El abrazo de la serpiente'
+    },
+    {
+      index: 2,
+      link: 'https://rtvcplay-v2.s3-accelerate.amazonaws.com/s3fs-public/field/image/video/Confesion-Laura-Trailer.jpg',
+      name: 'Confesión a Laura'
+    },
+    {
+      index: 3,
+      link: 'https://www.proimagenescolombia.com/photos/57150_888_imagen__.jpg',
+      name: 'María, llena eres de gracia'
+    }
+  ]
 
   handleNext(){
     this.carousel.splice(0,1);
