@@ -1,4 +1,5 @@
 <app-header />
 <div class="moviesContainer">
-    <app-movie-card *ngFor="let i of items" [name]="i.name"></app-movie-card>
+    <app-movie-card *ngFor="let i of carousel" [name]="i.name"></app-movie-card>
+    <button (click)="handleNext()">Siguiente</button>
 </div>

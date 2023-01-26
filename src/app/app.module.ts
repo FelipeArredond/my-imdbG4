@@ -17,7 +17,6 @@ import { MoviesComponent } from './movies/movies.component';
 import { HttpClientModule } from '@angular/common/http';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { MovieCardComponent } from './movie-card/movie-card.component';
-import { CarrouselTestComponent } from './carrousel-test/carrousel-test.component';
 import { IgxCarouselComponent, IgxSliderComponent } from 'igniteui-angular';
 
 @NgModule({
@@ -30,8 +29,7 @@ import { IgxCarouselComponent, IgxSliderComponent } from 'igniteui-angular';
     MenuSidebarComponent,
     AccordionMenuComponent,
     MoviesComponent,
-    MovieCardComponent,
-    CarrouselTestComponent,
+    MovieCardComponent
   ],
   imports: [
     BrowserModule,
