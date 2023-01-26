@@ -16,6 +16,7 @@ import { AccordionMenuComponent } from './header/menu-sidebar/accordion-menu/acc
 import { MoviesComponent } from './movies/movies.component';
 import { HttpClientModule } from '@angular/common/http';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import { MovieCardComponent } from './movie-card/movie-card.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
     MenuSidebarComponent,
     AccordionMenuComponent,
     MoviesComponent,
+    MovieCardComponent,
   ],
   imports: [
     BrowserModule,

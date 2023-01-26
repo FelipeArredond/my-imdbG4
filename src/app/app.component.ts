@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-imdb';
+
+  items = [
+    {
+      name: 'Transformers 1'
+    },{
+      name: 'Transformers 2'
+    },{
+      name: 'Transformers 3'
+    },{
+      name: 'Transformers 4'
+    }
+  ];
+
 }
+
