@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MoviesComponent } from './movies/movies.component';
+import { IgxCarouselModule, IgxSliderComponent } from 'igniteui-angular';
 
 const routes: Routes = [
   {
@@ -10,7 +11,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes)
+  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
