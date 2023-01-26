@@ -17,6 +17,20 @@ export class AppComponent {
       name: 'Transformers 3'
     },{
       name: 'Transformers 4'
+    },{
+      name: 'Transformers 4'
+    },{
+      name: 'Transformers 4'
+    },{
+      name: 'Transformers 4'
+    },{
+      name: 'Transformers 4'
+    },
+    {
+      name: 'Transformers 4'
+    },
+    {
+      name: 'Transformers 4'
     }
   ];
 
