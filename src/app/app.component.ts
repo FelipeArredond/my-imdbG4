@@ -36,7 +36,7 @@ export class AppComponent {
     },
     {
       index: 5,
-      link: 'https://rtvcplay-v2.s3-accelerate.amazonaws.com/s3fs-public/styles/originales/public/field/image/video/Cap-Rodrigo-D_0.jpg',
+      link: 'https://rtvcplay-v2.s3-accelerate.amazonaws.com/s3fs-public/field/image/production/RD-Rodrigo-D-400X660.jpg',
       name: 'Rodrigo D no futuro'
     },
     {
@@ -60,17 +60,17 @@ export class AppComponent {
   carousel = [
     {
       index: 0,
-      link: 'https://pics.filmaffinity.com/la_vendedora_de_rosas-407417805-large.jpg',
+      link: 'https://www.proimagenescolombia.com/photos/57150_6_imagen__.jpg',
       name: 'La vendedora de rosas'
     },
     {
       index: 1,
-      link: 'https://pics.filmaffinity.com/el_abrazo_de_la_serpiente-385873306-large.jpg',
+      link: 'https://cdn.culturagenial.com/es/imagenes/abrazo-serpiente-cke.jpg',
       name: 'El abrazo de la serpiente'
     },
     {
       index: 2,
-      link: 'https://rtvcplay-v2.s3-accelerate.amazonaws.com/s3fs-public/field/image/video/Confesion-Laura-Trailer.jpg',
+      link: 'https://www.proimagenescolombia.com/photos/57150_120_imagen__.jpg',
       name: 'Confesión a Laura'
     },
     {
@@ -81,13 +81,14 @@ export class AppComponent {
   ]
 
   handleNext(){
+    console.log('Recibi un click')
     this.carousel.splice(0,1);
     if(this.carousel[this.carousel.length-1].index == this.items[this.items.length-1].index ){
+      console.log('Se cumplio la condicion')
       this.carousel.push(this.items[0]);
     }else{
       this.carousel.push(this.items[this.carousel[this.carousel.length-1].index+1]);
     }
-    console.log(this.carousel)
   }
 
 }

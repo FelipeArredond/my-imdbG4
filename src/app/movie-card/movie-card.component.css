@@ -1,18 +1,139 @@
+:root {
+    --dark: #000000;
+    --whithe: #fff;
+    --gray: rgba(255, 255, 255, 0.568);
+    --yellow: #f5c518;
+    --grayy: rgba(255, 255, 255, 0.144);
+    --bluebonts: #5797df;
+    --blackhover: #2c2c2c;
+}
+
+.card-group {
+    padding: 0.5rem;
+    margin-bottom: -35px;
+}
+
+.card-body {
+    padding: 8px;
+    cursor: pointer;
+    height: 180px;
+}
+
 .card {
-    height: 300px;
-    width: 200px;
-    background-color: black;
-    margin-bottom: 10px;
-    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 180px;
+    /* border: 1px solid rgb(252, 252, 252); */
+    height: 445px;
+    border-radius: 2px;
+    overflow: hidden;
 }
 
-.card .image {
-    height: 60%;
+.card:hover {
+    transition: 1s;
+    filter: brightness(80%);
+}
+
+.card-img {
     width: 100%;
-    background-color: black;
+    cursor: pointer;
 }
 
-.movieName {
-    font-size: 20px;
-    color: white;
+.star {
+    color: var(--yellow);
+    height: -10px;
+    cursor: pointer;
+    padding: 0;
+    float: inline-start;
+}
+
+.starss {
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.starss p {
+    color: var(--gray);
+    font: size 1px;
+    display: inline;
+}
+
+.starb {
+    color: var(--bluebonts);
+    cursor: pointer;
+    display: inline;
+    transition: 0.2s;
+}
+
+.starb:hover {
+    color: #fff;
+}
+
+.btn-stars {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    display: inline;
+    margin-left: 25px;
+    padding: 1px;
+    background-color: #252525;
+    border: 1px;
+}
+
+.btn-stars:hover {
+    color: yellow;
+}
+
+.card-title {
+    color: var(--whithe);
+    font-size: 1.0em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.card-title:hover {
+    text-decoration: underline;
+}
+
+.card-buttonv {
+    height: 30px;
+    width: 160px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #2c2c2c;
+    color: var(--bluebonts);
+    border-radius: 5%;
+    text-align: center;
+    border: 1px;
+    font-weight: bold;
+    transition: 0.2s;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.card-buttonv:hover {
+    background-color: var(--grayy);
+}
+
+.card-buttont {
+    cursor: pointer;
+    background-color: #252525;
+    color: var(--whithe);
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    border: 1px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 3px;
+    height: 35px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.card-buttont:hover {
+    background-color: var(--blackhover);
 }
