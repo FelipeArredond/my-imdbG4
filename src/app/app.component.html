@@ -1,4 +1,6 @@
 <app-header />
+<app-modal/>
+<app-section-header [mainText]="mainText" [mainTittle]="mainTittle" />
 <div class="moviesContainer">
     <app-movie-card *ngFor="let i of carousel" [name]="i.name" [link]="i.link"></app-movie-card>
     <button (click)="handleNext()">Siguiente</button>

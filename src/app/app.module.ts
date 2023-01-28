@@ -18,6 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 import { IgxCarouselComponent, IgxSliderComponent } from 'igniteui-angular';
+import { ModalComponent } from './modal/modal.component';
+import { SectionHeaderComponent } from './section-header/section-header.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { IgxCarouselComponent, IgxSliderComponent } from 'igniteui-angular';
     MenuSidebarComponent,
     AccordionMenuComponent,
     MoviesComponent,
-    MovieCardComponent
+    MovieCardComponent,
+    ModalComponent,
+    SectionHeaderComponent
   ],
   imports: [
     BrowserModule,

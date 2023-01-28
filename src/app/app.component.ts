@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  mainTittle = 'Otro titulo'
+  mainText = 'Texto'
+
   title = 'my-imdb';
 
   items = [
