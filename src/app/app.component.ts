@@ -7,8 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  mainTittle = 'Otro titulo'
-  mainText = 'Texto'
+  mainTittle = 'Favoritos de los aficionados'
+  mainText = 'Los mejores programas de TV y peliculas de esta semana'
+ 
 
   title = 'my-imdb';
 
