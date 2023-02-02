@@ -21,7 +21,6 @@ export class HeaderComponent implements OnInit {
       .get<Item[]>(`${environment.apiUrl}/menuItems`)
       .subscribe((data) => {
         this.menuService.menuItemsBehaviorSubject.next(data);
-        console.log(data);
       });
   }
 
