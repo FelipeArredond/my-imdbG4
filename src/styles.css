@@ -12,6 +12,15 @@
   --primary-color: #FAC539;
   --main-font-family: 'Roboto', sans-serif;
   --main-font-size: 16px;
+  
+    --dark: #000000;
+    --whithe: #fff;
+    --gray: rgba(255, 255, 255, 0.568);
+    --yellow: #f5c518;
+    --grayy: rgba(255, 255, 255, 0.144);
+    --bluebonts: #5797df;
+    --blackhover: #2c2c2c;
+
 }
 
 html {
