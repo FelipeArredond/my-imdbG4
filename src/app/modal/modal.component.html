@@ -1,3 +1,49 @@
-<div class="box">
+<div class="Container-calification">
+    <div class="container-star">
+        <img class="icon-estrella" src="./assets/estrella.png" alt="no se ve" />
+    
+            <button class="btnclose"><img src="./assets/cerrar.png" alt="" /></button>
+        
+    </div>
 
+    <div class="calification">
+        <h6>CALIFICAR ESTO</h6>
+
+        <div class="movietitle">
+            {{ titleMovie }}
+        </div>
+
+        <div class="container-stars">
+            <div class="stars">
+                <form>
+                    <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5" />
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4" />
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3" />
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2" />
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1" />
+                        <label for="radio5">★</label>
+                        <input id="radio6" type="radio" name="estrellas" value="1" />
+                        <label for="radio6">★</label>
+                        <input id="radio7" type="radio" name="estrellas" value="1" />
+                        <label for="radio7">★</label>
+                        <input id="radio8" type="radio" name="estrellas" value="1" />
+                        <label for="radio8">★</label>
+                        <input id="radio9" type="radio" name="estrellas" value="1" />
+                        <label for="radio9">★</label>
+                        <input id="radio10" type="radio" name="estrellas" value="1" />
+                        <label for="radio10">★</label>
+                    </p>
+                </form>
+            </div>
+
+            <button class="btncalificar" type="button" onclick="alert(`clickeado`)">
+                Calificar
+            </button>
+        </div>
+    </div>
 </div>

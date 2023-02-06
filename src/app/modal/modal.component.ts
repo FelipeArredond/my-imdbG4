@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./modal.component.css']
 })
 export class ModalComponent {
+  title = 'PrimeraApp';
+  titleMovie=`Avatar: El Camino del Agua`;
 
 }

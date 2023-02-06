@@ -1,5 +1,185 @@
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+
+
+/* contenedor principal */
+.Container-calification {
+    width: 500px;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    background-color:  #1f1f1f;
+   justify-content: center;
+    margin-top: 200px;
+    margin-left: 100px;
+    
 }
+/* contenedor icono estrella */
+.container-star {
+  position: relative;
+  width: 100%;
+  height:40px;
+  background-color: #1f1f1f;;
+  left: 0px;
+  top: 0px;
+  
+}
+/* estrella */
+.icon-estrella{
+  position: absolute;
+  left: 40%;
+  width: 80px;
+  height: 80px;
+  z-index: 1px;
+  position: relative;
+  bottom: 45px;
+}
+.btnclose{
+  float: right;
+  background-color: transparent;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  position: relative;
+  bottom: 45px;
+  border: none;
+
+  
+}
+/* container secundario principal */
+.calification {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color:#1f1f1f; ;
+  text-align: center;
+  width: 90%;
+  height: auto;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.calification h6 {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #F5C518;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+/* contenedor nombre movie */
+.movietitle {
+
+    background-color: #1f1f1f;;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    margin-top: 8px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+
+
+}
+/* contenedor estrellas   */
+
+
+.container-stars {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color:#1f1f1f;;
+    padding: 0px;
+    margin: 0;
+    
+    
+}
+
+.stars{
+ display: flex;
+ flex-direction: row; 
+height: 50%;
+padding: 0;
+margin: 0;
+width: 100%;
+background-color: #1f1f1f;
+
+}
+.container-btn{
+
+background-color: #1f1f1f;;
+width: 100%;
+height:auto;
+margin: 0;
+
+}
+
+
+.star-button:hover{
+background-color: yellow;
+
+}
+
+/* boton */
+.btncalificar {
+
+    width: 100%;
+    height: 60%;
+    padding: 5px;
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: #464543;
+    color: #858585;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* estrellas */
+#form {
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+    margin:0;
+    padding: 12px;
+  }
+  
+  #form label {
+    font-size: 7px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+    font-size: 35px;
+    cursor: pointer;
+
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    margin: 0;;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
