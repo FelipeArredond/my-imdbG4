@@ -13,3 +13,13 @@
 .next-button{
     background-color: black;
 }
+
+.modal-container{
+    z-index: 10;
+    width: 100%;
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

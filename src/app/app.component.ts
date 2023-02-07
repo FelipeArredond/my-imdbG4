@@ -14,6 +14,8 @@ export class AppComponent {
 
   mainTittle = 'Favoritos de los aficionados'
   mainText = 'Los mejores programas de TV y peliculas de esta semana'
+
+  isModalOpen = false;
  
 
   title = 'my-imdb';
@@ -46,6 +48,10 @@ export class AppComponent {
     }else{
       this.carousel.push(this.items[this.carousel[this.carousel.length-1].index+1]);
     }
+  }
+
+  handleModal(){
+    this.isModalOpen = !this.isModalOpen;
   }
 
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-modal',
@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
 export class ModalComponent {
   title = 'PrimeraApp';
   titleMovie=`Avatar: El Camino del Agua`;
+
+  @Output() close: EventEmitter<any> = new EventEmitter();
+
+  closeModal(){
+    this.close.emit(null);
+  }
 
 }

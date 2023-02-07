@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-movie-card',
@@ -8,4 +8,11 @@ import { Component, Input } from '@angular/core';
 export class MovieCardComponent {
   @Input() name: string = '';
   @Input() link: string = ';'
+  @Output() open: EventEmitter<any> = new EventEmitter();
+
+  openModal(){
+    this.open.emit(null);
+  }
+
 }
+

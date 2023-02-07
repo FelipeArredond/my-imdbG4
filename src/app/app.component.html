@@ -1,6 +1,9 @@
 <app-header />
+<div *ngIf="isModalOpen" class="modal-container">
+    <app-modal (close)="handleModal()"/>
+</div>
 <app-section-header [mainText]="mainText" [mainTittle]="mainTittle" />
 <div class="moviesContainer">
-    <app-movie-card *ngFor="let i of carousel" [name]="i.name" [link]="i.link"></app-movie-card>
+    <app-movie-card *ngFor="let i of carousel" [name]="i.name" [link]="i.link" (open)="handleModal()"></app-movie-card>
     <button (click)="handleNext()" class="next-button"><img src="../assets/img/siguiente.png" alt="" srcset=""></button>
 </div>
